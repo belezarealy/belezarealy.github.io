@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  color: rgb(255, 255, 255);
+  background: rgb(255,103,48);
+  background: linear-gradient(90deg, rgba(255,103,48,1) 31%, rgba(237,78,21,1) 54%, rgba(233,59,0,1) 69%, rgba(2,0,36,1) 100%);
+}
+
+.avatar {
+  width: 100px;
+  border-radius: 100px;
+  border: 1px solid rgb(112, 105, 105);
+  box-shadow: 0 0 20px #d3a725;
+}
+
+h1 {
+  font-family: 'Architects Daughter', cursive;
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 2px;
+}
+
+.profile {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.social {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin: 20px 0;
+}
+
+.social img {
+  width: 33px;
+}
+
+
+.links-list {
+  list-style: none;
+}
+
+.links-list li {
+  margin: 10px 20px;
+}
+
+.links-list li a {
+  display: block;
+  background: rgb(236, 234, 222);
+  padding: 15px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+.links-list li a:hover {
+  background: #fdfdfd;
+}
+
+.links-list li a span {
+  color: rgb(0, 0, 0);
+  display: block;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.links-list li a.active {
+  box-shadow: 0 0 20px rgb(240, 71, 20);
+  color: rgb(0, 75, 25);
+  font-weight: bold;
+}
+
+.links-list.second {
+  margin-top: 30px;
+}
